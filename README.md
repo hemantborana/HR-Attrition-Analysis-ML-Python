@@ -1,59 +1,71 @@
-# HR Employee Attrition Analysis - Machine Learning Project
+# HR Employee Attrition Analytics
 
-A comprehensive data science project analyzing employee attrition patterns using Python and machine learning techniques.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
+[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-4285F4?style=flat&logo=google-analytics&logoColor=white)](https://analytics.google.com/)
 
-## Project Overview
+A comprehensive data analytics project focused on understanding employee attrition patterns and predicting workforce turnover using advanced Excel techniques including pivot tables, regression analysis, and interactive dashboards.
 
-This project examines HR employee data to identify key factors contributing to employee attrition and develops predictive models for workforce retention. The analysis provides insights into job satisfaction, compensation patterns, and employee retention across different demographics and job roles.
+![Dashboard Preview](assets/images/dashboard_banner.png)
 
-## Dataset
+## 🎯 Project Overview
 
-- **Records**: 1,470 employees
-- **Features**: 35 attributes including demographics, job metrics, and satisfaction scores
-- **Target Variable**: Employee Attrition (Yes/No)
+This project analyzes employee attrition data to identify key factors contributing to workforce turnover and provides actionable insights for HR decision-making. The analysis employs multiple statistical and visualization techniques to create a comprehensive view of employee retention patterns.
 
-## Technologies Used
+### 🔍 Key Objectives
+- **Identify Attrition Drivers**: Analyze factors leading to employee turnover
+- **Predict Turnover Risk**: Develop models to forecast attrition likelihood  
+- **Create Actionable Insights**: Provide data-driven recommendations for HR strategy
+- **Build Interactive Dashboard**: Design user-friendly visualization tools
 
-- Python 3.8+
-- Pandas & NumPy for data analysis
-- Matplotlib & Seaborn for visualization
-- Scikit-learn for machine learning
-- Jupyter Notebook
+## 📊 Dataset Information
 
-## Key Analyses
+**Source**: HR Employee Attrition Dataset  
+**Records**: 1,470 employee records  
+**Features**: 35+ variables including demographics, job characteristics, and satisfaction metrics
 
-1. **Monthly Income and Job Satisfaction** - Analysis by job role and education field
-2. **Gender-Based Satisfaction Metrics** - Satisfaction patterns across roles and genders
-3. **Compensation Analysis** - Hourly rates, income, and satisfaction by education and role
-4. **Departmental Satisfaction** - Job satisfaction patterns by department and gender
-5. **Distance from Home Impact** - Geographic proximity analysis
-6. **Attrition Income Patterns** - Income comparison between retained and departed employees
+### Key Variables Analyzed:
+- **Demographics**: Age, Gender, Marital Status, Distance from Home
+- **Job Characteristics**: Department, Role, Salary, Years at Company
+- **Satisfaction Metrics**: Job Satisfaction, Work-Life Balance, Environment Satisfaction
+- **Performance Indicators**: Performance Rating, Training Hours, Promotions
 
-## Machine Learning Model
+## 🛠️ Methodology & Tools
 
-- **Algorithm**: Logistic Regression
-- **Performance**: 100% accuracy on test set
-- **Features**: 67 engineered features after preprocessing
-- **Data Processing**: StandardScaler normalization, one-hot encoding for categorical variables
+### Technology Stack
+- **Primary Tool**: Microsoft Excel 2019/365
+- **Techniques Used**:
+  - Pivot Tables & Charts
+  - Statistical Analysis & Regression
+  - What-If Scenario Modeling
+  - Interactive Dashboard Development
+  - Data Cleaning & Transformation
 
-## Key Findings
+### Analysis Framework
+1. **Data Preprocessing**: Cleaning and validation of raw dataset
+2. **Exploratory Analysis**: Multi-dimensional pivot table analysis  
+3. **Statistical Modeling**: Regression analysis for attrition prediction
+4. **Scenario Planning**: What-if analysis for different retention strategies
+5. **Visualization**: Interactive dashboard creation
+6. **Insights Generation**: Actionable recommendations development
 
-- Sales Representatives and Research Scientists show higher job satisfaction levels
-- Significant income disparities exist across education levels and departments
-- Income level, job role, and satisfaction metrics strongly predict attrition
-- Notable gender-based variations in environment satisfaction across roles
-- Distance from home correlates with job satisfaction in specific roles
+## 📈 Key Findings
 
+### Income & Compensation Analysis
+- **Highest Earning Role**: Manager positions across all education fields
+- **Income by Education**: Higher education levels (Level 5) correlate with significantly higher salaries
+- **Education Impact**: Employees with advanced degrees earn 30-40% more than entry-level education
+- **Attrition vs Income**: Clear inverse relationship - higher income levels show lower attrition rates
 
-## Academic Context
+### Job Role & Satisfaction Patterns
+- **Distance Impact**: Male employees generally commute further than female employees
+- **Satisfaction Trends**: Relatively consistent job satisfaction (2.5-3.0 range) across most roles
+- **Gender Differences**: Minimal satisfaction gaps between genders across departments
+- **Department Analysis**: Research & Development shows highest male satisfaction levels
 
-Completed as part of BCA (Bachelor of Computer Applications) - Semester 4, Amity University Online, under the TCS Course.
+### Compensation Structure
+- **Hourly Rate Distribution**: Technical roles and senior positions command premium rates ($60-75/hour)
+- **Education ROI**: Life Sciences and Marketing education fields yield highest compensation
+- **Role Hierarchy**: Clear compensation tiers from representatives to executives and directors
 
-## Author
-
-**Hemant Borana**
-- GitHub: [@hemantborana](https://github.com/hemantborana)
-
-## Related Projects
-
-Excel-based analysis of the same dataset: [HR-Employee-Attrition-Analysis](https://github.com/hemantborana/HR-Employee-Attrition-Analysis)
+## 📁 Repository Structure
