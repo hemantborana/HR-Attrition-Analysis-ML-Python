@@ -7,7 +7,6 @@
 
 A comprehensive data analytics project focused on understanding employee attrition patterns and predicting workforce turnover using Python and advanced data visualization techniques in Jupyter Notebook.
 
-![Dashboard Preview](assets/images/dashboard_banner.png)
 
 ## 🎯 Project Overview
 
@@ -74,21 +73,15 @@ This project analyzes employee attrition data to identify key factors contributi
 - **Education ROI**: Life Sciences and Marketing education fields yield highest compensation
 - **Role Hierarchy**: Clear compensation tiers from representatives to executives and directors
 
-## 🖥️ Dashboard Features
+## 🎓 Academic Context
 
-### Interactive Elements
-- **Attrition Overview**: Department-wise turnover rates
-- **Demographic Analysis**: Age, gender, and location breakdowns
-- **Satisfaction Correlation**: Impact of job satisfaction on retention
-- **Predictive Modeling**: Risk assessment for current employees
-- **Scenario Analysis**: What-if modeling for retention strategies
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="https://i.ibb.co/qMTCC89r/tcs-log.png" width="100px" />
+  <img src="https://i.ibb.co/6zgXKY0/amity-logo.png" width="100px" />
+</div>
 
-![Dashboard Overview](docs/screenshots/dashboard_overview.png)
+This project was completed as part of the **TCS Course Project** during the **2nd Year** of the  
+**Bachelor of Computer Applications (BCA) Undergraduate Program** at **Amity University Online**.  
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Python 3.7 or later
-- Jupyter Notebook or JupyterLab
-- Required libraries: pandas, matplotlib, seaborn, numpy, plotly
 
