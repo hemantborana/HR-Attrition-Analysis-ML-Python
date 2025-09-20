@@ -1,10 +1,11 @@
 # HR Employee Attrition Analytics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/en-us/microsoft-365/excel)
-[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-4285F4?style=flat&logo=google-analytics&logoColor=white)](https://analytics.google.com/)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green.svg)](https://pandas.pydata.org/)
 
-A comprehensive data analytics project focused on understanding employee attrition patterns and predicting workforce turnover using advanced Excel techniques including pivot tables, regression analysis, and interactive dashboards.
+A comprehensive data analytics project focused on understanding employee attrition patterns and predicting workforce turnover using Python and advanced data visualization techniques in Jupyter Notebook.
 
 ![Dashboard Preview](assets/images/dashboard_banner.png)
 
@@ -73,21 +74,6 @@ This project analyzes employee attrition data to identify key factors contributi
 - **Education ROI**: Life Sciences and Marketing education fields yield highest compensation
 - **Role Hierarchy**: Clear compensation tiers from representatives to executives and directors
 
-## 📁 Repository Structure
-
-├── data/
-│   └── hr_employee_dataset.csv              # Raw HR dataset (PROVIDED)
-├── notebooks/
-│   └── hr_analytics_analysis.ipynb          # Jupyter Notebook analysis (YOUR WORK)
-├── docs/
-│   ├── project_guidelines.docx              # Assignment specifications (PROVIDED)
-│   ├── analysis_report.docx                 # Detailed findings report (YOUR WORK)
-│   └── screenshots/                         # Visualization outputs
-└── assets/
-└── images/                              # Project visuals
-
-
-
 ## 🖥️ Dashboard Features
 
 ### Interactive Elements
@@ -106,8 +92,3 @@ This project analyzes employee attrition data to identify key factors contributi
 - Jupyter Notebook or JupyterLab
 - Required libraries: pandas, matplotlib, seaborn, numpy, plotly
 
-### Usage Instructions
-1. **Clone the repository**
-```bash
-   git clone https://github.com/yourusername/hr-employee-attrition-analytics.git
-   cd hr-employee-attrition-analytics
