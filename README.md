@@ -5,7 +5,7 @@
 - **Demographic Analysis**: Age, gender, and location breakdowns
 - **Satisfaction Correlation**: Impact of job satisfaction on retention
 - **Predictive Modeling**: Risk assessment for current employees
-- **Scenario Analysis**: What-if modeling for retention strategies
+- **Scenario Analysis**: What-if modeling for retention strategies 
 
 ![Dashboard Overview](docs/screenshots/dashboard_overview.png)
 
